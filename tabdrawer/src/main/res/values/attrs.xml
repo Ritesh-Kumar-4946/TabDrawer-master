@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabDrawerLayout">
+        <!-- size = height for Top/Bottom TabDrawer; size = width for Left/Right TabDrawer -->
+        <attr name="size_tabBar" format="dimension"/>
+        <attr name="size_Total" format="dimension"/>
+
+        <attr name="tabBarPosition" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+
+        <attr name="defaultSelectedTab" format="integer"/>
+        <attr name="defaultSelectedTabItem" format="integer"/>
+
+        <attr name="padding" format="dimension"/>
+        <attr name="paddingLeft" format="dimension"/>
+        <attr name="paddingRight" format="dimension"/>
+        <attr name="paddingTop" format="dimension"/>
+        <attr name="paddingBottom" format="dimension"/>
+
+        <attr name="drawer_padding" format="dimension"/>
+        <attr name="drawer_paddingLeft" format="dimension"/>
+        <attr name="drawer_paddingRight" format="dimension"/>
+        <attr name="drawer_paddingTop" format="dimension"/>
+        <attr name="drawer_paddingBottom" format="dimension"/>
+
+        <attr name="list_padding" format="dimension"/>
+        <attr name="list_paddingLeft" format="dimension"/>
+        <attr name="list_paddingRight" format="dimension"/>
+        <attr name="list_paddingTop" format="dimension"/>
+        <attr name="list_paddingBottom" format="dimension"/>
+
+    </declare-styleable>
+</resources>
